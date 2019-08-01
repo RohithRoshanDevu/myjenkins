@@ -50,7 +50,7 @@ if __name__ == '__main__':
                         type=str, required=True, default="",
                         help='Username to login into Destination server.')
     parser.add_argument('--key', '-k',
-                        type=str, required=False, default="",
+                        type=str, required=True, default="",
                         help='idrsa key for the user to authenticate Destination server.')
     parser.add_argument('--restore_type', '-r',
                         type=str, required=False, default="FULL",
