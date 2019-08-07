@@ -160,7 +160,7 @@ def restore_in_gbm(surl,tenant,did,passp,workerp,restore_type,q_flag,dsets,model
         combined_flag = 'ALL'
     if restore_type in ['Only_Tenant_Config', 'Only_Dataset_Config', 'Only_Models', 'Specific_Model']:
         combined_flag = []
-    if restore_type in ['Only_Tenant_Config', 'Only_TargetSpec_Config', 'Only_Combined_Results']
+    if restore_type in ['Only_Tenant_Config', 'Only_TargetSpec_Config', 'Only_Combined_Results']:
         d_flag = []
     if restore_type in ['Only_Config', 'Skip_Config', 'Only_Models']:
         m_flag = 'ALL'
