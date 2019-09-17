@@ -3,7 +3,7 @@ import csv
 
 print 'Writing into the file : \n'
 
-filename = 'dump_info.csv'
+filename = '/var/jenkins_home/dumps/dump_info.csv'
 
 
 with file(filename,'a') as fp:
